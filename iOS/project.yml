@@ -1,0 +1,36 @@
+name: DiscoLights
+options:
+  bundleIdPrefix: com.discolights
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "15.0"
+
+targets:
+  DiscoLights:
+    type: application
+    platform: iOS
+    sources:
+      - path: DiscoLights/Sources
+      - path: DiscoLights/Resources
+    info:
+      path: DiscoLights/Info.plist
+      properties:
+        CFBundleName: DiscoLights
+        CFBundleDisplayName: Disco Lights
+        CFBundleIdentifier: com.discolights.app
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIStatusBarHidden: false
+        NSMicrophoneUsageDescription: "Beat Reactive mode uses your microphone to detect music beats and sync the light show."
+        UIUserInterfaceStyle: Dark
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.discolights.app
+      DEVELOPMENT_TEAM: ""
+      SWIFT_VERSION: "5.9"
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+      TARGETED_DEVICE_FAMILY: "1"
