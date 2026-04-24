@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26E615D7CCDB02CC5E2D5AD8 /* DiscoModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94544AEC3E1D074F9D119188 /* DiscoModeView.swift */; };
+		492EC7C520C346DD37734AA1 /* BeatDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9047EB1A35AC99AABFE6F985 /* BeatDetector.swift */; };
+		4FA6478A1D7968508BE62589 /* DiscoLightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43365AB50C9C19723DC543DA /* DiscoLightsApp.swift */; };
+		650E8E9B0C40D61385296724 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E266CFD8901A71B9D92AE5 /* ColorPalette.swift */; };
+		6C6538413F606CD250E4E1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86901164C4AD8CE338657935 /* Assets.xcassets */; };
+		7DED71DB2433F540B74CD78C /* DiscoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699C6245797E63B33A8BBC68 /* DiscoSettings.swift */; };
+		91E2EABDEAF6D66486162B80 /* SafetyWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBE1E740676DC072E550578 /* SafetyWarningView.swift */; };
+		93D05720EAF37F0FF565763B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E4688CC2EC02227019B3D7 /* ContentView.swift */; };
+		D8902BAF7E0A733D15A7F627 /* CustomColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A098966E026226B1071B2C /* CustomColorPickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0478A6A7BE1D443CB0EA15C5 /* DiscoLights.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DiscoLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E4688CC2EC02227019B3D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43365AB50C9C19723DC543DA /* DiscoLightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoLightsApp.swift; sourceTree = "<group>"; };
+		57A098966E026226B1071B2C /* CustomColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorPickerView.swift; sourceTree = "<group>"; };
+		699C6245797E63B33A8BBC68 /* DiscoSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoSettings.swift; sourceTree = "<group>"; };
+		86901164C4AD8CE338657935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9047EB1A35AC99AABFE6F985 /* BeatDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeatDetector.swift; sourceTree = "<group>"; };
+		94544AEC3E1D074F9D119188 /* DiscoModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoModeView.swift; sourceTree = "<group>"; };
+		9EBE1E740676DC072E550578 /* SafetyWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyWarningView.swift; sourceTree = "<group>"; };
+		A7E266CFD8901A71B9D92AE5 /* ColorPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		277368C5FBF8CF27A933BB23 = {
+			isa = PBXGroup;
+			children = (
+				5A563B27EAB7747AE8C965BE /* Resources */,
+				77190CD11ADEBA579249A7AF /* Sources */,
+				E9AB9C3307D9C99CB30A2A77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A563B27EAB7747AE8C965BE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86901164C4AD8CE338657935 /* Assets.xcassets */,
+			);
+			name = Resources;
+			path = DiscoLights/Resources;
+			sourceTree = "<group>";
+		};
+		77190CD11ADEBA579249A7AF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9047EB1A35AC99AABFE6F985 /* BeatDetector.swift */,
+				A7E266CFD8901A71B9D92AE5 /* ColorPalette.swift */,
+				37E4688CC2EC02227019B3D7 /* ContentView.swift */,
+				57A098966E026226B1071B2C /* CustomColorPickerView.swift */,
+				43365AB50C9C19723DC543DA /* DiscoLightsApp.swift */,
+				94544AEC3E1D074F9D119188 /* DiscoModeView.swift */,
+				699C6245797E63B33A8BBC68 /* DiscoSettings.swift */,
+				9EBE1E740676DC072E550578 /* SafetyWarningView.swift */,
+			);
+			name = Sources;
+			path = DiscoLights/Sources;
+			sourceTree = "<group>";
+		};
+		E9AB9C3307D9C99CB30A2A77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0478A6A7BE1D443CB0EA15C5 /* DiscoLights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8F95662C6570090CD8BD995 /* DiscoLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB333B3C82D48427917F93D2 /* Build configuration list for PBXNativeTarget "DiscoLights" */;
+			buildPhases = (
+				5F40D559ED1F946E4CA4BB60 /* Sources */,
+				A3B285C9B8D64E0A9628E084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoLights;
+			packageProductDependencies = (
+			);
+			productName = DiscoLights;
+			productReference = 0478A6A7BE1D443CB0EA15C5 /* DiscoLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8040DA15ADB4BB1BC192CBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B8F95662C6570090CD8BD995 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 19414ABC286E1B8BFAAD76FE /* Build configuration list for PBXProject "DiscoLights" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 277368C5FBF8CF27A933BB23;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E9AB9C3307D9C99CB30A2A77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8F95662C6570090CD8BD995 /* DiscoLights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B285C9B8D64E0A9628E084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6538413F606CD250E4E1AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F40D559ED1F946E4CA4BB60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492EC7C520C346DD37734AA1 /* BeatDetector.swift in Sources */,
+				650E8E9B0C40D61385296724 /* ColorPalette.swift in Sources */,
+				93D05720EAF37F0FF565763B /* ContentView.swift in Sources */,
+				D8902BAF7E0A733D15A7F627 /* CustomColorPickerView.swift in Sources */,
+				4FA6478A1D7968508BE62589 /* DiscoLightsApp.swift in Sources */,
+				26E615D7CCDB02CC5E2D5AD8 /* DiscoModeView.swift in Sources */,
+				7DED71DB2433F540B74CD78C /* DiscoSettings.swift in Sources */,
+				91E2EABDEAF6D66486162B80 /* SafetyWarningView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43FD42ECBCCB9D1137534AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DiscoLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.discolights.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DF4E55A9F754746F2D6E2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9132EDEC6843D368BDB44FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C7BE212F88217D95476AA53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DiscoLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.discolights.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19414ABC286E1B8BFAAD76FE /* Build configuration list for PBXProject "DiscoLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DF4E55A9F754746F2D6E2AE /* Debug */,
+				9132EDEC6843D368BDB44FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DB333B3C82D48427917F93D2 /* Build configuration list for PBXNativeTarget "DiscoLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43FD42ECBCCB9D1137534AFF /* Debug */,
+				C7BE212F88217D95476AA53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8040DA15ADB4BB1BC192CBCB /* Project object */;
+}
